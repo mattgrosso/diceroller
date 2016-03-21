@@ -1,0 +1,53 @@
+section{
+  width: 400px;
+  height: 300px;
+  background-color: #4DBDFB;
+}
+
+h1{
+  font-size: 2em;
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
+
+.dice::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.leftdie{
+  width: 50px;
+  height: 50px;
+  border: 1px black solid;
+  background-color: white;
+  position: relative;
+  left: 125px;
+  float: left;
+}
+
+.rightdie{
+  width: 50px;
+  height: 50px;
+  border: 1px black solid;
+  background-color: white;
+  position: relative;
+  left: 175px;
+  float: left;
+}
+
+button{
+  margin-top: 25px;
+  position: relative;
+  width: 80px;
+  height: 25px;
+  left: 160px;
+}
+
+footer{
+  text-align: center;
+  margin-top: 25px
+}
