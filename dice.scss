@@ -2,12 +2,13 @@ section{
   position: relative;
   width: 400px;
   height: 300px;
-  background-color: #4DBDFB;
+  background-color: #DECDF5;
   margin: auto;
   border-radius: 25px;
   border: 2px solid black;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
+  box-shadow: 10px 10px 25px 1px black;
 }
 
 header{
@@ -42,6 +43,7 @@ p{
   position: relative;
   left: 104px;
   float: left;
+  border-radius: 10px;
 }
 
 .rightdie{
@@ -52,6 +54,7 @@ p{
   position: relative;
   left: 164px;
   float: left;
+  border-radius: 10px;
 }
 
 button{
@@ -61,7 +64,7 @@ button{
   left: 160px;
   margin-top: 40px;
   border-radius: 5px;
-  background-color: white;
+  background-color: #F8F1FF;
   border: solid black 1px;
   font-size: .85em;
 }
@@ -76,32 +79,57 @@ footer{
 
 .pip{
   background-color: black;
-  width: 20px;
-  height: 20px;
+  width: 14px;
+  height: 14px;
   border-radius: 50%;
-  transition: 0.5s;
+  transition: 0.1s;
+  position: relative;
 }
 
-#pip1{
-  display: none:
-}
-
-#pip2{
+#leftpip1{
   display: none;
 }
 
-#pip3{
+#leftpip2{
   display: none;
 }
 
-#pip4{
+#leftpip3{
   display: none;
 }
 
-#pip5{
+#leftpip4{
   display: none;
 }
 
-#pip6{
+#leftpip5{
+  display: none;
+}
+
+#leftpip6{
+  display: none;
+}
+
+#rightpip1{
+  display: none;
+}
+
+#rightpip2{
+  display: none;
+}
+
+#rightpip3{
+  display: none;
+}
+
+#rightpip4{
+  display: none;
+}
+
+#rightpip5{
+  display: none;
+}
+
+#rightpip6{
   display: none;
 }
