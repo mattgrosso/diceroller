@@ -210,9 +210,6 @@ var dicegame = {
       rightpip6.style.top = "-60.5px";
       rightpip6.style.left = "11px";
     }
-
-    // leftdienumber.innerHTML = Math.floor((Math.random() * 6)) + 1;
-    // rightdienumber.innerHTML = Math.floor((Math.random() * 6)) + 1
   }
 }
 
@@ -250,4 +247,4 @@ rollbutton.addEventListener('click', function(){
       };
 })
 
-footerdate.innerHTML = "Game Started " + starttime.getFullYear() + "-" + starttime.getMonth() + "-" + starttime.getDate() + " at " + starttime.getHours() + ":" + starttime.getMinutes()
+footerdate.innerHTML = "Game Started " + starttime.getFullYear() + "-" + (starttime.getMonth()+1) + "-" + starttime.getDate() + " at " + starttime.getHours() + ":" + starttime.getMinutes()
