@@ -213,18 +213,18 @@ var dicegame = {
   }
 }
 
-rollbutton.addEventListener('mousedown', function(){
+rollbutton.addEventListener('mousedown', function mounseDown(){
   rollbutton.style.color = "white";
   rollbutton.style["background-color"] = "#534D56";
 })
 
-rollbutton.addEventListener('mouseup', function(){
+rollbutton.addEventListener('mouseup', function mouseUp(){
   rollbutton.style.color = "black";
   rollbutton.style["background-color"] = "#F8F1FF";
 
 })
 
-rollbutton.addEventListener('click', function(){
+rollbutton.addEventListener('click', function buttonClick(){
   dicegame.roll();
   var sum = Number(leftnumber) + Number(rightnumber);
   if((sum !== 7) ||
